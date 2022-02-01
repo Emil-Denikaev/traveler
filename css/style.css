@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+/* Шапка */
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 10px 0px;
+  background-color: #f1f1f1;
+  z-index: 10;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  font-family: Acumin Pro;
+  color: #ff4c64;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 140%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.airplane {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+.traveler {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #4d4949;
+  padding-right: 30px;
+}
+
+.home {
+  color: #ff4c64;
+}
+
+.register {
+  text-decoration: none;
+  color: white;
+  background-color: #ff4c64;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border-color: transparent;
+}
+
+/* Путешествие */
+
+.hero {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+.hero-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.hero-info {
+  font-family: Acumin Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 120%;
+  margin-bottom: 25px;
+}
+
+.hero-budget {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #4d4949;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+.hero-start {
+  display: flex;
+  align-items: center;
+}
+
+.hero-button {
+  padding: 15px 30px;
+  background: #ff4d64;
+  color: white;
+  font-size: 18px;
+  line-height: 150%;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-right: 40px;
+}
+
+.hero-play {
+  height: 40px;
+  width: 40px;
+  color: #ff4d64;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.hero-video {
+  align-items: center;
+  right: 40px;
+  color: #1a080a;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* Услуги */
+
+.service {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.service-container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.service-destination {
+  font-family: Acumin Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 130%;
+  color: #1a080a;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.service-place {
+  color: #4d4949;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 60px;
+}
+
+.service-info {
+  display: block;
+  max-width: 760px;
+  justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+}
